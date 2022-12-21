@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-1,
+.body-2,
+.body-3,
+.body-4,
+.body-5 {
+    background-color: black;
+}
+
+.heading-1 {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    /* margin-top: 25px; */
+    font-family: Goudy Old Style;
+    font-style: italic;
+    /* text-decoration: line-through; */
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(212, 108, 108, 0.637);
+    overflow: hidden;
+}
+
+.nav-li {
+    display: flex;
+    list-style: none;
+    padding: 14px 0px;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    letter-spacing: 1px;
+}
+
+li {
+    padding: 0px 25px;
+}
+
+.logo-text {
+    margin-left: 430px;
+    font-family: Segoe Script;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+  
+}
+.a_logo{
+    text-decoration: none;
+}
+
+/* .parent{
+    background-color: rgba(0, 0, 0, 0.37);
+} */
+.sec-1 {
+    background: url(./image/pic4.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-1 {
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    height: 90vh;
+}
+
+.tagline-1 {
+    position: absolute;
+    bottom: 300px;
+    padding-left: 95px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    font-family: mv boli;
+    font-style: italic;
+}
+
+.tagline-2 {
+    position: absolute;
+    bottom: 210px;
+    padding-left: 200px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    font-family: mv boli;
+    font-style: italic;
+}
+
+.marq {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 27px;
+    padding: 15px 0;
+    color: whitesmoke;
+    font-family: Gabriola;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.biryani {
+    padding: 20px;
+    float: left;
+}
+
+.sec-3 {
+    color: wheat;
+}
+
+.biryani-text {
+    padding: 65px 30px;
+    letter-spacing: 2px;
+    font-family: Ink Free;
+}
+
+/* footer {
+    background-color: #333;
+    overflow: hidden;
+} */
+.footer{
+    background-color: #333;
+    height: 50px;
+    position: relative;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+}
+.a_1,
+.a_2{
+    float: left;
+}
+.a_3{
+    position: absolute;
+    left: 570px;
+}
+
+.a_4,
+.a_5{
+    float: right;
+}
+
+/* ABOUT */
+.about-bg {
+    background-image: url(./image/pic2.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vh;
+    position: relative;
+}
+
+.abt {
+    background-color: rgba(51, 51, 51, 0.568);
+    width: 100%;
+    height: 70vh;
+}
+
+.heading-2 {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    bottom: 200px;
+    font-weight: bolder;
+    padding-left: 70px;
+    padding-top: 90px;
+    font-family: mv boli;
+}
+
+.sec-4 {
+    color: white;
+}
+.biryani_2 {
+    padding: 20px;
+    float: left;
+    /* border: solid goldenrod 3px; */
+    border-radius: 20px;
+    margin-top: 6px;
+    border-top: solid goldenrod 3px;
+    border-bottom: solid goldenrod 3px;
+}
+.biryani-text_2 {
+    padding: 50px 30px;
+    letter-spacing: 2px;
+    font-family: Ink Free;
+}
+.abtimg {
+    padding: 20px;
+    float: right;
+    border-radius: 20px;
+    border: solid silver 3px;
+}
+
+.abt-text {
+    padding: 65px 30px;
+    letter-spacing: 2px;
+    font-family: Ink Free;
+}
+
+/* MENU */
+.parent{
+   background-image: url(./img/pattren.jpg);
+   background-size: 200px;
+   width: 100%;
+   /* height: 40vh; */
+   border-radius: 150px;
+
+}
+.heading-3 {
+    background-color: rgba(185, 159, 73, 0.39);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    padding: 30px 40px;
+    font-size: xx-large;
+    /* margin-left: 35%; */
+    border-radius: 150px;
+    font-family: mv boli;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    /* margin-top: 10px; */
+}
+
+.heading-3 h2{
+   font-weight: 900;
+   text-shadow: 5px 5px 10px black;
+
+}
+
+.bigmenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.bigmenu2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.menuimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgba(141, 13, 13, 0.712);
+    border-radius: 50%;
+    color: beige;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.specialimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* STORE */
+
+section#contact_us {
+    padding: 50px 0;
+}
+
+.sec-6 {
+    background-image: url(./image/pexels-jonathan-borba-5379707.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.store-img,
+.review-img {
+    background-color: rgba(51, 51, 51, 0.521);
+    width: 100%;
+    height: 100vh
+}
+
+.heading-4 {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    bottom: 200px;
+    font-weight: bolder;
+    margin-left: 455px;
+    margin-bottom: 30px;
+    font-family: mv boli;
+    float: right;
+    overflow: hidden;
+    background-color: rgba(67, 75, 75, 0.473);
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-style: italic;
+
+}
+
+.sec-7 {
+    background-image: url(./image/img12.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.heading-5 {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    bottom: 200px;
+    font-weight: bolder;
+    margin-left: 385px;
+    /* margin-bottom: 10px; */
+    font-family: mv boli;
+    float: right;
+    overflow: hidden;
+    background-color: rgba(67, 75, 75, 0.473);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 25px 40px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 45px;
+}
+.item{
+    /* background-color: bisque; */
+    text-align: center;
+    color: white;
+    /* border: solid red 3px; */
+background-color: #68242463;
+padding: 10px 10px;
+border-radius: 30px;
+/* font-family: Ink Free; */
+}
+.dc{
+    font-family: Segoe Script;
+
+}
+
+/* CONTACT */
+
+.sec-8 {
+    background-image: url(./img/img6.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.heading-6 {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    bottom: 200px;
+    font-weight: bolder;
+    margin-left: 375px;
+    /* margin-bottom: 10px; */
+    font-family: mv boli;
+    float: right;
+    overflow: hidden;
+    background-color: rgba(67, 75, 75, 0.473);
+    padding: 25px 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.contact-form {
+    color: white;
+    background-color: rgba(112, 14, 14, 0.329);
+    padding: 5px 20px 15px 20px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.req {
+    color: rgb(255, 0, 0);
+}
+
+.wrap {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 55px 310px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type='submit'] {
+    background-color: #e4adad;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+
+}
+
+input[type='submit']:hover {
+    background-color: #ac5959;
+    color: white;
+    font-weight: bolder;
+    
+}
